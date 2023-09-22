@@ -1,0 +1,296 @@
+#inicio,
+#servicios,
+#galeria {
+    display: none;
+}
+h2 {
+    font-style: italic; /* Cursiva */
+    text-align: center; /* Centro de texto */
+    font-weight: bold; /* Negrita */
+}
+
+.icon-title {
+    font-size: 24px; /* Tamaño del texto */
+    text-align: center; /* Centra el título */
+}
+
+.icon {
+    margin: 0 10px; /* Espacio entre el icono y el texto */
+}
+.icon i {
+    color: #ff0000; /* Cambia el color de los iconos */
+}
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(36, 89%, 64%);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+.contenedor-menu {
+    text-align: center;
+}
+/* Estilos para los enlaces del menú */
+.menu-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 105px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ff5100e0;
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+.menu-item:hover {
+    transform: scale(1.5);
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-item:hover img {
+    transform: scale(1.2);
+}
+
+
+#inicio {
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 40px; /* Añade espacio alrededor del contenido */
+    background-color: hsl(36, 89%, 64%); /* Agrega un fondo gris claro */
+}
+
+.contenedor {
+    max-width: 800px; /* Define un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido dentro del contenedor */
+    border: 1px solid  #aa1919; /* Agrega un borde al contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al contenedor */
+}
+
+#inicio h2 {
+    font-size: 28px; /* Tamaño de fuente más grande para el título */
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 20px; /* Margen inferior para separar el título del contenido */
+}
+
+.perfil {
+    display: flex; /* Utiliza flexbox para alinear elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.perfil img {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen tenga forma circular */
+    margin-right: 20px; /* Espacio entre la imagen y la información */
+}
+
+.informacion {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.informacion h3 {
+    font-size: 24px; /* Tamaño de fuente para el nombre */
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 10px; /* Margen inferior para separar el nombre del párrafo */
+}
+
+.informacion p {
+    font-size: 18px; /* Tamaño de fuente para los párrafos */
+    color: hsl(0, 94%, 20%); /* Color de texto gris */
+    margin-bottom: 10px; /* Margen inferior para separar los párrafos */
+    font-style: italic; /* Aplica cursiva al texto */
+}
+
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+    background-color: hsl(36, 89%, 64%);
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(14, 156, 50, 0.1);
+}
+
+section h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.servicio {
+    margin-bottom: 40px; /* Aumenta el margen inferior para más separación entre elementos */
+    padding: 20px;
+    border: 1px solid #aa1919;
+    display: flex;
+    align-items: center;
+}
+
+.servicio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-right: 40px; /* Aumenta el margen derecho para separar más la imagen */
+}
+
+.servicio-content {
+    flex: 1;
+}
+
+.servicio h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-right: 40px; /* Aumenta el margen inferior para separar más el título */
+}
+
+.servicio p {
+    font-size: 18px;
+    color: hsl(0, 94%, 20%);
+    margin-bottom: 20px; /* Aumenta el margen inferior para separar más el párrafo */
+}
+.servicio h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px; /* Aumenta el margen inferior para separar más el título */
+}
+
+/* Estilos para las listas de técnicas y materiales */
+.servicio ul {
+    font-size: 20px;
+    list-style: disc;
+    margin-left: 20px;
+    color: hsl(0, 0%, 97%);
+}
+
+.servicio ul li {
+    margin: 10px 0;
+}
+
+/* Estilo para el contenedor de imágenes */
+/* Estilo para el contenedor de imágenes */
+.galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px;
+    justify-content: center;
+    background-color: #080000; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para cada imagen en la galería */
+.galeria-imagen {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid hsl(24, 90%, 51%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el mouse */
+    border-radius: 10px; /* Redondear los bordes */
+}
+
+.galeria-imagen img {
+    width: 100%;
+    height: 100%; /* Hacer que todas las imágenes ocupen el 100% del contenedor */
+    display: block;
+    object-fit: cover; /* Escala la imagen para llenar el contenedor sin distorsionarla */
+    border-radius: 10px; /* Redondear los bordes de la imagen */
+}
+
+/* Estilo para la descripción de cada imagen */
+.descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro transparente */
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease-in-out; /* Transición suave para la opacidad */
+}
+
+/* Efecto de mostrar la descripción al pasar el mouse sobre la imagen */
+.galeria-imagen:hover .descripcion {
+    opacity: 1; /* Mostrar la descripción al pasar el mouse */
+}
+
+/* Efecto de agrandamiento al pasar el mouse sobre la imagen */
+.galeria-imagen:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento suave */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
+}
+
+footer {
+    background-color: #180101; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interior del pie de página */
+    text-align: center;
+    display: flex; /* Utilizar un diseño flexible para alinear elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+}
+
+/* Estilo para el contenedor dentro del pie de página */
+.footer-container {
+    max-width: 800px; /* Ancho máximo del contenido del pie de página */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    display: flex; /* Utilizar un diseño flexible para alinear elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilo para los logotipos izquierdo y derecho */
+.logo-izquierdo,
+.logo-derecho {
+    flex: 1; /* Que cada logotipo ocupe el mismo espacio */
+}
+
+/* Estilo para las imágenes de los logotipos */
+.logo-izquierdo img,
+.logo-derecho img {
+    max-width: 200px; /* Ancho máximo de los logotipos */
+    height: auto; /* Mantener la proporción de aspecto original */
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+/* Estilo para el contenido central */
+.contenido-central {
+    flex: 5; /* Dar más espacio al contenido central */
+    text-align: center; /* Alinear el contenido central a la izquierda */
+}
